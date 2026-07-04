@@ -1,0 +1,8 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'JavaScript Code Recipes'
+theme = 'ananke'
+
+[markup]
+  [markup.highlight]
+    style = 'solarized-light'
