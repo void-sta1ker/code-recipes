@@ -6,3 +6,7 @@ theme = 'ananke'
 [markup]
   [markup.highlight]
     style = 'solarized-light'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
