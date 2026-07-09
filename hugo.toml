@@ -5,7 +5,8 @@ theme = 'ananke'
 
 [markup]
   [markup.highlight]
-    style = 'solarized-light'
+    codeFences = true
+    noClasses = false
 
 [caches]
   [caches.images]
