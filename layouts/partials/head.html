@@ -1,0 +1,2 @@
+{{ $style := resources.Get "css/code-fence-border.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous">

@@ -9,8 +9,8 @@ draft = false
 ## Introduction
 
 Observer
-```js
-const subscribers = [];
+```js {class="mb2"}
+const subscribers = []; // also called observers or listeners
 
 function subscribe(subscriber) {
   subscribers.push(subscriber);

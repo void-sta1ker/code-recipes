@@ -1,0 +1,9 @@
+.highlight {
+    border: 1px solid #ddd;
+    margin-bottom: 0.5rem;
+}
+
+/* Override inner pre tags if your theme adds conflicting styles */
+.highlight pre {
+    margin: 0;
+}

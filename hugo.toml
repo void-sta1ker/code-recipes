@@ -10,3 +10,6 @@ theme = 'ananke'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[params]
+  custom_css = ["code-fence-border.css"]
